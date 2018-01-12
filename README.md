@@ -5,8 +5,8 @@ Stop the swarm application
 docker stack rm portainer
 
 Open the application
-http://localhost:9000/#/dashboard
-http://www.thalasoft.com:9000/#/dashboard
+http://localhost:9005/#/dashboard
+http://www.thalasoft.com:9005/#/dashboard
 
 Log in with
 User: stephane
