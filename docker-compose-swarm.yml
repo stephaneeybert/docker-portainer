@@ -1,0 +1,9 @@
+version: "3"
+services:
+  portainer:
+    image: portainer/portainer
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "~/dev/docker/projects/learnintouch/volumes/portainer/data:/data"
+    ports:
+      - "9000:9000"
